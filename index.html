@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Valentine Letter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Envelope Screen -->
+    <div id="envelope-container">
+      <img src="Envelope.png" alt="Envelope" id="envelope" />
+      <p>♡ Letter for You ♡</p>
+    </div>
+
+    <!-- Letter Screen -->
+    <div id="letter-container">
+      <div class="letter-window">
+        <!-- Separate classes for independent photo sizing and positioning -->
+        <img src="Thia 2.png" class="polaroid photo-1" alt="Thia 2" />
+        <img src="Thia 1.png" class="polaroid photo-2" alt="Thia 1" />
+
+        <div id="letter-title">
+          When the sun is warm and skies are blue,<br />
+          I’d love to spend a day with you.<br />
+          With flowers in bloom and skies so bright,<br />
+          Shall we make 24/10 afternoon ours to write?
+        </div>
+
+        <img src="Sunflower.gif" class="cat" id="letter-cat" />
+
+        <div class="buttons" id="letter-buttons">
+          <img src="yes.gif" class="btn yes-btn" alt="Yes" />
+
+          <div class="no-wrapper">
+            <img src="No.gif" class="btn no-btn" alt="No" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom text -->
+      <p id="final-text" class="final-text" style="display: none">
+        <strong>Date Information:</strong> I'll pick you up at 12pm. Dress summer chic!
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
