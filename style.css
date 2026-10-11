@@ -218,12 +218,12 @@ p {
     }
     .photo-1 {
         width: 80px;
-        left: -10px;
+        left: 20px;
         bottom: 10px;
     }
     .photo-2 {
         width: 110px;
-        right: -10px;
-        top: 70px;
+        right: 30px;
+        top: 130px;
     }
 }
