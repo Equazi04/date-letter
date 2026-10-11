@@ -193,29 +193,34 @@ p {
 
 /* Responsive adjustment for smaller mobile screens */
 @media (max-width: 600px) {
+    .letter-window {
+        width: 95vw;
+        padding: 5px 15px 15px 15px;
+    }
     #letter-title {
-        font-size: 16px;
-        margin-top: -10px;
+        font-size: 13.5px; /* Reduced so text fits safely inside the paper width */
+        margin-top: -5px;
+        line-height: 1.25;
     }
     .cat {
-        width: 130px;
+        width: 110px;
     }
     .btn,
     .yes-btn,
     .no-btn {
-        width: 85px;
+        width: 75px;
     }
     .final-text {
-        font-size: 15px;
+        font-size: 13px;
     }
     .photo-1 {
-        width: 85px;
+        width: 80px;
         left: 10px;
         bottom: 10px;
     }
     .photo-2 {
-        width: 95px;
+        width: 90px;
         right: 10px;
-        top: 100px;
+        top: 90px;
     }
 }
