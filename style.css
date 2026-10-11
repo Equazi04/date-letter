@@ -80,7 +80,7 @@ body {
 .polaroid {
     position: absolute;
     height: auto;
-    border: 3px solid white;
+    border: 1px solid white;
     border-radius: 6px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
     z-index: 5;
@@ -194,7 +194,7 @@ p {
 /* Responsive adjustment for smaller mobile screens */
 @media (max-width: 600px) {
     .letter-window {
-        width: 94vw;         /* Made the paper wider */
+        width: 200vw;         /* Made the paper wider */
         max-width: 440px;    /* Increased max size limit */
         aspect-ratio: 4/3;   /* Adjusted proportions to give more vertical space */
         padding: 30px 15px 25px 15px;
