@@ -194,13 +194,16 @@ p {
 /* Responsive adjustment for smaller mobile screens */
 @media (max-width: 600px) {
     .letter-window {
-        width: 95vw;
-        padding: 5px 15px 15px 15px;
+        width: 94vw;         /* Made the paper wider */
+        max-width: 440px;    /* Increased max size limit */
+        aspect-ratio: 4/3;   /* Adjusted proportions to give more vertical space */
+        padding: 30px 15px 25px 15px;
     }
     #letter-title {
-        font-size: 10px; /* Reduced so text fits safely inside the paper width */
-        margin-top: -5px;
-        line-height: 1.25;
+        font-size: 14.5px !important; /* Balanced font size for the wider paper */
+        margin-top: 5px !important;
+        line-height: 1.3;
+        padding: 0 5px;
     }
     .cat {
         width: 90px;
