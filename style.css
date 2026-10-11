@@ -198,12 +198,12 @@ p {
         padding: 5px 15px 15px 15px;
     }
     #letter-title {
-        font-size: 5px; /* Reduced so text fits safely inside the paper width */
+        font-size: 17px; /* Reduced so text fits safely inside the paper width */
         margin-top: -5px;
         line-height: 1.25;
     }
     .cat {
-        width: 110px;
+        width: 90px;
     }
     .btn,
     .yes-btn,
