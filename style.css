@@ -198,7 +198,7 @@ p {
         padding: 5px 15px 15px 15px;
     }
     #letter-title {
-        font-size: 17px; /* Reduced so text fits safely inside the paper width */
+        font-size: 15px; /* Reduced so text fits safely inside the paper width */
         margin-top: -5px;
         line-height: 1.25;
     }
@@ -219,7 +219,7 @@ p {
         bottom: 10px;
     }
     .photo-2 {
-        width: 90px;
+        width: 110px;
         right: 10px;
         top: 90px;
     }
